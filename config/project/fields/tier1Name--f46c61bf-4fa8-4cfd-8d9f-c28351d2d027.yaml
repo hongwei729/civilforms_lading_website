@@ -1,0 +1,19 @@
+columnSuffix: wdojzvcb
+contentColumnType: text
+fieldGroup: 511c954c-0a4d-4c0f-b23d-a37ac73d4baa # Pricing
+handle: tier1Name
+instructions: ''
+name: 'Tier 1 - Name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,19 @@
+columnSuffix: kxmktgfr
+contentColumnType: text
+fieldGroup: bcbfd88c-f1ba-406c-9e6a-a8def1440bb9 # Common
+handle: headingPanelIntro
+instructions: ''
+name: 'Heading Panel - Intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

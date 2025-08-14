@@ -1,0 +1,154 @@
+field: 4404d5db-8814-4b8d-ba5e-3afe20adcfe2 # Solutions
+fieldLayouts:
+  d993fa42-32e7-43b9-b895-e28db32e1d26:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 61a956c7-9db3-4f14-827f-57acdec3bc82 # Solution - Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 46d0a5f1-bce9-40f8-8cff-513143eadb10 # Solution Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8e812123-b785-4e93-9151-b438edcca573 # Solution - Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1fc4731f-ca22-4663-8598-b36051711f50 # Solution Icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1fc4731f-ca22-4663-8598-b36051711f50: # Solution Icon
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: solutionIcon
+    instructions: ''
+    name: 'Solution Icon'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:2a8ddfe2-e7fd-4013-98d7-ad972f3eab5d' # Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: 'Add Solution'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:2a8ddfe2-e7fd-4013-98d7-ad972f3eab5d' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  8e812123-b785-4e93-9151-b438edcca573: # Solution - Background Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: solutionBackgroundImage
+    instructions: ''
+    name: 'Solution - Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:2a8ddfe2-e7fd-4013-98d7-ad972f3eab5d' # Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:2a8ddfe2-e7fd-4013-98d7-ad972f3eab5d' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  46d0a5f1-bce9-40f8-8cff-513143eadb10: # Solution Description
+    columnSuffix: eitzuarq
+    contentColumnType: text
+    fieldGroup: null
+    handle: solutionDescription
+    instructions: ''
+    name: 'Solution Description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '2'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  61a956c7-9db3-4f14-827f-57acdec3bc82: # Solution - Title
+    columnSuffix: eeuiqtfx
+    contentColumnType: text
+    fieldGroup: null
+    handle: solutionTitle
+    instructions: ''
+    name: 'Solution - Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: solution
+name: Solution
+sortOrder: 1

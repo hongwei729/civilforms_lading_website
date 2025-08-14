@@ -1,0 +1,58 @@
+columnSuffix: oozalfjd
+contentColumnType: text
+fieldGroup: bcbfd88c-f1ba-406c-9e6a-a8def1440bb9 # Common
+handle: button3
+instructions: ''
+name: 'Button 3'
+searchable: false
+settings:
+  addRowLabel: 'Add Button'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Button Label'
+            -
+              - handle
+              - buttonLabel
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Button URL'
+            -
+              - handle
+              - buttonUrl
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: '1'
+  minRows: '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

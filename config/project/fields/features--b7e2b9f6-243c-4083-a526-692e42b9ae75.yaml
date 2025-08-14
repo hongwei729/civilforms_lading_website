@@ -1,0 +1,134 @@
+columnSuffix: njfjuhkl
+contentColumnType: text
+fieldGroup: 511c954c-0a4d-4c0f-b23d-a37ac73d4baa # Pricing
+handle: features
+instructions: ''
+name: Features
+searchable: false
+settings:
+  addRowLabel: 'Add a Feature'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Name
+            -
+              - handle
+              - name
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Tier 1'
+            -
+              - handle
+              - tier1
+            -
+              - width
+              - ''
+            -
+              - type
+              - lightswitch
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Tier 2'
+            -
+              - handle
+              - tier2
+            -
+              - width
+              - ''
+            -
+              - type
+              - lightswitch
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Tier 3'
+            -
+              - handle
+              - tier3
+            -
+              - width
+              - ''
+            -
+              - type
+              - lightswitch
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Tier 4'
+            -
+              - handle
+              - tier4
+            -
+              - width
+              - ''
+            -
+              - type
+              - lightswitch
+      -
+        - col6
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Tier 5'
+            -
+              - handle
+              - tier5
+            -
+              - width
+              - ''
+            -
+              - type
+              - lightswitch
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+        -
+          - col3
+          - ''
+        -
+          - col4
+          - ''
+        -
+          - col5
+          - ''
+        -
+          - col6
+          - ''
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

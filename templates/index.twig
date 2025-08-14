@@ -1,0 +1,159 @@
+
+{% extends "_layout" %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+
+<!-- title START -->
+<div id="title" class="title_home">
+  <div class="wrapper">
+    <div id="title_text">
+    <h1>{{ entry.titleHeading|striptags('<strong><em>')|raw }}</h1>
+    <p>{{ entry.titleSubHeading|striptags('<strong><em>')|raw }}</p>
+    {% if entry.button|length %}
+      {% for row in entry.button %}
+        <a href="{{ row.buttonUrl }}" class="button">{{ row.buttonLabel }}</a>
+      {% endfor %}
+    {% endif %}
+    
+    </div>
+    <div id="title_img">
+      <img src="ui/images/title-home-img.png" alt="" />
+    </div>
+  </div>
+</div>
+<!-- title END -->
+
+<!-- subHeading START -->
+<div class="subHeading">
+  <div class="wrapper">
+    <div class="subHeading_pre">{{ entry.headingPanelIntro }}</div>
+    <h2 class="subHeading_h2">{{ entry.headingPanelMain }}</h2>
+  </div>
+</div>
+<!-- subHeading END -->
+
+<!-- slides START -->
+<div class="slides">
+  {% for block in entry.sliderTiles.all() %}
+      <div class="slides_slide">
+        <h2>{{block.tileTitle}}</h2>
+        <p>{{block.tileDescription}}</p>
+        <a href="{{block.tileLinkUrl}}">{{block.tileLinkLabel}}</a>
+      </div>
+  {% endfor %}
+</div>
+<!-- slides END -->
+
+<!-- buttonPanel START -->
+<div class="buttonPanel">
+  <div class="wrapper">
+    {% if entry.button2|length %}
+      {% for row in entry.button2 %}
+        <a href="{{ row.buttonUrl }}" class="button">{{ row.buttonLabel }}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+<!-- buttonPanel END -->
+
+<!-- startUsing START -->
+<div class="startUsing startUsingHome">
+  <div class="wrapper">
+    <div class="startUsing_text">
+      <h2>{{ entry.startUsingTitle|striptags('<strong><em>')|raw }}</h2>
+      <p>{{ entry.startUsingDescription|striptags('<strong><em>')|raw }}</p>
+      {% if entry.startUsingButton|length %}
+        {% for row in entry.startUsingButton %}
+          <a href="{{ row.buttonUrl }}" class="button buttonRev">{{ row.buttonLabel }}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <div class="startUsing_img"><img src="{% set rel = entry.startUsingImage.one() %}{% if rel %}{{ rel.url }}{% endif %}" alt="" /></div>
+  </div>
+</div>
+<!-- startUsing END -->
+
+<!-- howItWorks START -->
+<div class="howItWorks">
+  <div class="wrapper">
+    <div class="howItWorks_text">
+      <h2>{{ entry.startUsingTitle|striptags('<strong><em>')|raw }}</h2>
+      {{ entry.howItWorksDescription }}
+      <div class="howItWorks_points">
+        {% for block in entry.howItWorksTypes.all() %}
+            <div class="howItWorks_point">
+              <div class="howItWorks_point_img" style="background-image: url('{% set rel = block.typeIcon.one() %}{% if rel %}{{ rel.url }}{% endif %}')"></div>
+              <div class="howItWorks_point_text">
+                <h3>{{block.typeTitle}}</h3>
+                <p>{{block.typeDescription}}</p>
+              </div>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="howItWorks_img"><img src="{% set rel = entry.howItWorksCollage.one() %}{% if rel %}{{ rel.url }}{% endif %}" alt="" /></div>
+  </div>
+</div>
+<!-- howItWorks END -->
+
+<!-- formStarted START -->
+<div class="formStarted">
+  <div class="wrapper">
+    <h2>Get <em>started!</em></h2>
+    {% macro errorList(errors) %}
+        {% if errors %}
+            {{ ul(errors, {class: 'errors'}) }}
+        {% endif %}
+    {% endmacro %}
+    {% set submission = submission ?? null %}
+    <form method="post" action="" accept-charset="UTF-8">
+        {{ csrfInput() }}
+        {{ actionInput('contact-form/send') }}
+        {{ redirectInput('success') }}
+        <input type="hidden" id="fromName" name="fromName">
+        <input type="hidden" id="subject" name="subject" value="Website Contact Form">
+        <ul>
+          <li class="fieldHalf">
+            <input type="text" id="firstName" name="message[firstname]" placeholder="First Name">
+          </li>
+          <li class="fieldHalf">
+            <input type="text" id="lastName" name="message[lastname]" placeholder="Last Name">
+          </li>
+          <li class="feildFull">
+            <input type="text" name="fromEmail" placeholder="Email Address" required>
+            {{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
+          </li>
+          <li class="fieldHalf">
+            <input type="text" name="message[company]" placeholder="Company Name">
+          </li>
+          <li class="fieldHalf">
+            <input type="text" name="message[region]" placeholder="Company Region">
+          </li>
+          <li class="fieldButton"><button class="button">Start Civilogs for Free</button></li>
+        </ul> 
+    </form>
+
+  </div>
+</div>
+<!-- formStarted START -->
+        
+{% endblock %}
+    
+{% block scripts %}
+<script>
+var firstName = "";
+var lastName = "";
+var fromName = "";
+$('#firstName').focusout(function() {
+  firstName = $(this).val();
+  $('#fromName').val(firstName + " " + lastName);
+});
+$('#lastName').focusout(function() {
+  lastName = $(this).val();
+  $('#fromName').val(firstName + " " + lastName);
+});
+</script>
+{% endblock %}

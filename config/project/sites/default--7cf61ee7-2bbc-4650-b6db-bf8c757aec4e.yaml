@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en
+name: Civilogs
+primary: true
+siteGroup: d2f327a2-df39-4755-8041-691e154b5ee9 # Civilogs
+sortOrder: 1

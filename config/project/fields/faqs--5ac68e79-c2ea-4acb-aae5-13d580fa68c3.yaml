@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 511c954c-0a4d-4c0f-b23d-a37ac73d4baa # Pricing
+handle: faqs
+instructions: ''
+name: FAQs
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_faqs}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

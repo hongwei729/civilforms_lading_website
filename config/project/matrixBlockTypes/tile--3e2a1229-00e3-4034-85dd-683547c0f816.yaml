@@ -1,0 +1,128 @@
+field: 959e1957-6c06-4cb4-8c57-4c0ec45f944d # Slider - Tiles
+fieldLayouts:
+  a2872204-cd2b-425f-9918-76b8d13c39d0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 8811bbea-1c9c-4757-9e3a-76ae2ea2a0a0 # TItle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ed77666e-949e-41cb-803a-d245830c61b6 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a85fca54-127b-4dac-9f41-e9f8787f537d # Link Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 144c088c-c612-4a92-a909-944ddcaa3509 # Link URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  144c088c-c612-4a92-a909-944ddcaa3509: # Link URL
+    columnSuffix: uhqwuzon
+    contentColumnType: text
+    fieldGroup: null
+    handle: tileLinkUrl
+    instructions: ''
+    name: 'Link URL'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8811bbea-1c9c-4757-9e3a-76ae2ea2a0a0: # TItle
+    columnSuffix: dcujswnh
+    contentColumnType: text
+    fieldGroup: null
+    handle: tileTitle
+    instructions: ''
+    name: TItle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a85fca54-127b-4dac-9f41-e9f8787f537d: # Link Label
+    columnSuffix: gbhhovow
+    contentColumnType: text
+    fieldGroup: null
+    handle: tileLinkLabel
+    instructions: ''
+    name: 'Link Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ed77666e-949e-41cb-803a-d245830c61b6: # Description
+    columnSuffix: emwioale
+    contentColumnType: text
+    fieldGroup: null
+    handle: tileDescription
+    instructions: ''
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: tile
+name: Tile
+sortOrder: 1

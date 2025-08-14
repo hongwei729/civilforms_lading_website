@@ -1,0 +1,23 @@
+columnSuffix: gdneclns
+contentColumnType: text
+fieldGroup: a1aca50b-c7fd-46a4-86d1-8404bd6a4327 # Home
+handle: howItWorksTitle
+instructions: ''
+name: 'How it Works - Title'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  defaultTransform: ''
+  initJs: null
+  purifierConfig: ''
+  purifyHtml: '1'
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showUnpermittedFiles: ''
+  showUnpermittedVolumes: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

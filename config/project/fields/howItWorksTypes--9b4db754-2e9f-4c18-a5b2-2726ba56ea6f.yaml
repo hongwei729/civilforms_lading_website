@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a1aca50b-c7fd-46a4-86d1-8404bd6a4327 # Home
+handle: howItWorksTypes
+instructions: ''
+name: 'How It Works - Types'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_howitworkstypes}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

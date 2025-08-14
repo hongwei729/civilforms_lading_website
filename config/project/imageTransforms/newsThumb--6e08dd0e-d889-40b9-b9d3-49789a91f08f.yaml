@@ -1,0 +1,9 @@
+format: null
+handle: newsThumb
+height: 300
+interlace: none
+mode: crop
+name: 'News Thumb'
+position: center-center
+quality: null
+width: 390

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pricing
+name: Pricing
+propagationMethod: all
+siteSettings:
+  7cf61ee7-2bbc-4650-b6db-bf8c757aec4e: # Civilogs
+    enabledByDefault: true
+    hasUrls: true
+    template: pricing.twig
+    uriFormat: pricing
+type: single

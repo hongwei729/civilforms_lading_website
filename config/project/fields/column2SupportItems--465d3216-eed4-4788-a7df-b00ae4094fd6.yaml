@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b51377d1-20d6-4bee-a89b-b7cc1888a38f # Support
+handle: column2SupportItems
+instructions: ''
+name: 'Column 2 Support Items'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_column2supportitems}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

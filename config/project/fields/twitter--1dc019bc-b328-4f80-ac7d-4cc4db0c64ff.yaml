@@ -1,0 +1,19 @@
+columnSuffix: tpkioynm
+contentColumnType: text
+fieldGroup: 9cfb0a89-3d38-4089-8a83-e5fccee758d4 # Globals
+handle: twitter
+instructions: ''
+name: Twitter
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

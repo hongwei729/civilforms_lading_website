@@ -1,0 +1,48 @@
+columnSuffix: omnxgsbz
+contentColumnType: text
+fieldGroup: bcbfd88c-f1ba-406c-9e6a-a8def1440bb9 # Common
+handle: seo
+instructions: ''
+name: SEO
+searchable: false
+settings:
+  elementDisplayPreviewType: google
+  facebookEnabledFields:
+    - seoPreview
+    - ogType
+    - ogTitle
+    - ogSiteNamePosition
+    - ogDescription
+    - ogImage
+    - ogImageTransform
+    - ogImageTransformMode
+    - ogImageDescription
+  facebookTabEnabled: '1'
+  generalEnabledFields:
+    - seoPreview
+    - mainEntityOfPage
+    - seoTitle
+    - siteNamePosition
+    - seoDescription
+    - seoKeywords
+    - seoImage
+    - seoImageTransform
+    - seoImageTransformMode
+    - seoImageDescription
+  generalTabEnabled: '1'
+  sitemapTabEnabled: ''
+  twitterEnabledFields:
+    - seoPreview
+    - twitterCardType
+    - twitterCreator
+    - twitterTitle
+    - twitterSiteNamePosition
+    - twitterDescription
+    - twitterImage
+    - transformTwitterImage
+    - twitterImageTransformMode
+    - twitterImageDescription
+  twitterTabEnabled: '1'
+translationKeyFormat: null
+translationMethod: none
+type: nystudio107\seomatic\fields\SeoSettings

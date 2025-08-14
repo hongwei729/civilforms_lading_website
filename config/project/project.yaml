@@ -1,0 +1,263 @@
+dateModified: 1750916504
+email:
+  fromEmail: dave@daverayner.com.au
+  fromName: Civilogs
+  replyToEmail: dave@daverayner.com.au
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0c6b8046-a588-4a4c-b0bb-e6a8109a2f35: Features # Features
+    1d6e26a8-7ac6-4d00-85c5-7fc3ff0029dd: 'Tile 2 - Background Image' # Tile 2 - Background Image
+    1dc019bc-b328-4f80-ac7d-4cc4db0c64ff: Twitter # Twitter
+    1e33dbc0-dc2a-4438-bece-c21bd7b080d9: Instagram # Instagram
+    1fc4731f-ca22-4663-8598-b36051711f50: 'Solution Icon' # Solution Icon
+    2a8ddfe2-e7fd-4013-98d7-ad972f3eab5d: Images # Images
+    2b514fc2-0ab0-4e94-ab03-b65470249fb0: Image # Image
+    2b375104-ca3d-46da-8efd-10e73daea098: 'Tile 1 - Service' # Tile 1 - Service
+    2cf76d68-d635-452d-ba35-34e120f1af42: 'Team Photo' # Team Photo
+    3a7887b3-e2e7-4af8-9752-150a631a3995: Pricing # Pricing
+    3e2a1229-00e3-4034-85dd-683547c0f816: Tile # Tile
+    3f01284b-c97e-4caf-811b-e9615be9c0cd: 'Footer Text' # Footer Text
+    4e9d3d82-f018-45bb-8929-0986423677bb: Content # Content
+    4f61f776-b083-4831-914b-2df1f7d4bcda: 'Tier 5 - Billing Period' # Tier 5 - Billing Period
+    5ac68e79-c2ea-4acb-aae5-13d580fa68c3: FAQs # FAQs
+    5aec5938-e4c5-417d-985c-68e61497cad5: 'How it Works - Title' # How it Works - Title
+    5c8ab4aa-337d-47ab-9b88-05dfa9451ae8: 'Connect Link URL' # Connect Link URL
+    5f594c90-18f5-46c4-893d-15c5b2c4cc11: 'Tile 1 - Hover Background Image' # Tile 1 - Hover Background Image
+    5fbce1e1-500c-4672-85eb-53dd0e25df51: Homepage # Homepage
+    6b27b257-38fa-426b-af05-40118e936e48: 'Tier 2 - Billing Period' # Tier 2 - Billing Period
+    6b717878-c25a-4644-b86d-59c6243d0cf1: 'TItle - Heading' # TItle - Heading
+    6ba35fc6-e896-4324-9c91-1cf1c22f713b: Title # Title
+    6bf4edef-29d7-4b47-b188-a356cee054a3: 'Heading Panel - Intro' # Heading Panel - Intro
+    6c2a16b2-ff63-4780-b7fa-a94cab4818dd: Phone # Phone
+    6caebce6-b832-4d92-8e56-2e1a41587390: 'Tier 3 - Logs' # Tier 3 - Logs
+    6da96169-0515-4483-b781-ea7dc7b7977f: 'Key Dates' # Key Dates
+    6e08dd0e-d889-40b9-b9d3-49789a91f08f: 'News Thumb' # News Thumb
+    6ee157a1-0987-4a40-b840-ba0939f093f6: SEO # SEO
+    7b417e1f-ad3b-46a7-b3f9-35d1bc63a355: 'Support Item' # Support Item
+    7b549367-5368-4b82-94e1-7c62a35da98b: 'Tier 3 - Name' # Tier 3 - Name
+    7beafeb4-a098-4122-8e7f-dae385f894e7: 'Tier 3 - Cost' # Tier 3 - Cost
+    07c450c2-97bf-46b6-b7c4-8a63cfaf76cf: Facebook # Facebook
+    7cf61ee7-2bbc-4650-b6db-bf8c757aec4e: Civilogs # Civilogs
+    7d2de3a1-d52a-4c6b-8b18-b81da2b9dcc8: 'Type - Description' # Type - Description
+    7e5cde46-5602-4d9d-9acc-24315a1140aa: Homepage # Homepage
+    8db00036-e1fe-435c-939e-f1fd45ac8261: 'Support Item' # Support Item
+    8e812123-b785-4e93-9151-b438edcca573: 'Solution - Background Image' # Solution - Background Image
+    9a1d0237-0c2e-41a5-bb73-4aabea51419c: 'Tile 3 - Hover Background Image' # Tile 3 - Hover Background Image
+    9b4db754-2e9f-4c18-a5b2-2726ba56ea6f: 'How It Works - Types' # How It Works - Types
+    9cfb0a89-3d38-4089-8a83-e5fccee758d4: Globals # Globals
+    9ef35ec2-435f-43a9-ab8c-857fa49dfe8e: Features # Features
+    11ec0d3a-ef46-4008-837a-a42378378755: 'Point 2 - Number' # Point 2 - Number
+    18b9864d-5ec0-40a3-bb5e-9904ea978590: 'Heading Panel - Main' # Heading Panel - Main
+    19c3fe76-fd61-400c-a83b-bf7843b1c86f: Pricing # Pricing
+    24f168b0-5e1a-4d3a-9b99-3f94dd8af984: 'Tier 4 - Cost' # Tier 4 - Cost
+    26c377ab-0107-4eb6-ab87-238eb627ccfc: 'Tier 5 - Signup URL' # Tier 5 - Signup URL
+    29a018c1-a44e-4ff1-930d-5f2fc1bf4bb4: 'Tier 2 - Logs' # Tier 2 - Logs
+    31bd9fcc-48e0-4999-98a7-84d9f8ddbd76: 'Start Using - Title' # Start Using - Title
+    32bab7e1-3304-4a07-9f6f-e584b654552e: Content # Content
+    033a118f-36aa-4135-bac3-af99f2dd3f0e: 'Tier 5 - Cost' # Tier 5 - Cost
+    36a0ba59-7e39-47d9-9f38-a628c5d28169: 'Tier 2 - Name' # Tier 2 - Name
+    46cd2acb-b885-4891-9b26-6d9f81d46f66: Details # Details
+    46d0a5f1-bce9-40f8-8cff-513143eadb10: 'Solution Description' # Solution Description
+    58a2858e-7508-4a7f-b40b-c447d4598ca7: Footer # Footer
+    61a956c7-9db3-4f14-827f-57acdec3bc82: 'Solution - Title' # Solution - Title
+    64f19aa2-3df8-4ec4-9ff3-d0e5ea31dec0: 'Solutions Intro' # Solutions Intro
+    65a24b68-6ada-4880-a3de-af3d5c4efed2: Testimonials # Testimonials
+    91b8f95a-ffd3-4b3f-bb58-e609ce8b6fe5: 'Type - Icon' # Type - Icon
+    93a67dfd-d157-4356-b20b-be596de07d08: 'Point 3 - Title' # Point 3 - Title
+    95d05006-1ecb-4b7c-b3bf-832f402c8d55: Socials # Socials
+    96e5fa06-d587-4d2b-af47-63b1162f885a: 'How it Works - Text Link' # How it Works - Text Link
+    97cf6e3a-caca-403e-b851-3504080ab780: 'Tier 5 - Logs' # Tier 5 - Logs
+    144c088c-c612-4a92-a909-944ddcaa3509: 'Link URL' # Link URL
+    190e7ee0-8e0b-4e20-8af6-7395d9341b28: 'Tile 3 - Background Image' # Tile 3 - Background Image
+    259bc339-33c6-4a18-9d90-a6c734ada120: 'Start Using Image' # Start Using Image
+    0372c4fe-edec-4fe3-8ef6-688542fc6b81: 'Signs Images' # Signs Images
+    465d3216-eed4-4788-a7df-b00ae4094fd6: 'Column 2 Support Items' # Column 2 Support Items
+    475c7d20-53e5-4a28-bb13-dacdd70a98d9: 'Tier 4 - Logs' # Tier 4 - Logs
+    511c954c-0a4d-4c0f-b23d-a37ac73d4baa: Pricing # Pricing
+    643d3091-b903-415e-ad65-346cc33f5b32: News # News
+    746e86cc-0950-4144-83ca-f65d17b8f7a8: 'Text Content' # Text Content
+    957dd092-8db9-463b-ad92-24583f950d83: Details # Details
+    959e1957-6c06-4cb4-8c57-4c0ec45f944d: 'Slider - Tiles' # Slider - Tiles
+    2719b4cd-9ba2-4987-846f-b01c26907f51: 'How it Works - Description' # How it Works - Description
+    3760cb61-36e7-4025-bcc2-8f3d8e12e4b1: 'Connect Link Text' # Connect Link Text
+    4209ec9e-54a9-46c1-8338-59d94301a90a: 'Button 2' # Button 2
+    4404d5db-8814-4b8d-ba5e-3afe20adcfe2: Solutions # Solutions
+    07252c11-2aca-4726-9c19-3dbfaa23f983: 'Tile 3 - Service' # Tile 3 - Service
+    8127efd5-7682-4cc2-b312-6b82430affb0: 'Tier 4 - Signup URL' # Tier 4 - Signup URL
+    8155be39-aad4-4f27-b16d-ab1284b07032: 'Tier 5 - Name' # Tier 5 - Name
+    8811bbea-1c9c-4757-9e3a-76ae2ea2a0a0: TItle # TItle
+    71274d46-66fb-4eba-b46b-e0cd32f2993d: Side-Title # Side-Title
+    75520d12-c93f-4b06-910a-bf5157145497: 'Team Members' # Team Members
+    96492ee2-47c3-4843-8c75-98ace11db3e4: 'Linked In' # Linked In
+    278351f1-b7df-45bb-b096-97130c8d18a3: 'Tier 1 - Cost' # Tier 1 - Cost
+    292520de-da38-4ad3-afe5-5a7780de0935: 'Tier 2 - Cost' # Tier 2 - Cost
+    9723006b-2855-4b2f-ae04-23ac753222be: Support # Support
+    23183067-33b3-4019-b57b-7f1426367665: 'Tier 4 - Billing Period' # Tier 4 - Billing Period
+    24552041-a92e-4a5d-a05b-43ddfafbfaa9: Type # Type
+    36459373-bef0-4b5c-833c-789c7f59f280: Support # Support
+    a09e62d1-7233-46eb-ab41-41e22ecdcd25: 'Tile 1 - Background Image' # Tile 1 - Background Image
+    a1aca50b-c7fd-46a4-86d1-8404bd6a4327: Home # Home
+    a31a95a6-5d0a-4094-987e-bc936c432380: Features # Features
+    a85fca54-127b-4dac-9f41-e9f8787f537d: 'Link Label' # Link Label
+    a901e2f4-94a2-4944-9db8-1bda0c49e858: 'Point 2 - Title' # Point 2 - Title
+    a769562d-b1bf-45e6-9c64-c770fb1de9c0: Question # Question
+    ad166849-481c-4289-8a18-fec453f14678: 'Tier 1 - Logs' # Tier 1 - Logs
+    ae31a076-6390-4b8c-b3da-e6c544410b4e: Solution # Solution
+    b2f2dfec-956f-45af-9134-0b73e9e716c7: 'Point 1 - Number' # Point 1 - Number
+    b4a62d6a-9854-4f31-a331-d88f4d72d2cb: 'Tier 4 - Name' # Tier 4 - Name
+    b7e2b9f6-243c-4083-a526-692e42b9ae75: Features # Features
+    b5799cfd-2e2e-4387-be35-f4d71cf06a5a: 'Tier 2 - Signup URL' # Tier 2 - Signup URL
+    b51377d1-20d6-4bee-a89b-b7cc1888a38f: Support # Support
+    b71763fa-c59b-426c-9ca8-3625bd4e901f: FAQ # FAQ
+    b5306498-c3df-4ad2-a69c-1767598a41b5: Email # Email
+    bc7eef3d-d44f-4f82-a03b-8219fd5b6841: 'Start Using - Description' # Start Using - Description
+    bcbfd88c-f1ba-406c-9e6a-a8def1440bb9: Common # Common
+    bcdec288-310d-414b-8e44-9ddd89e13506: 'Tier 3 - Signup URL' # Tier 3 - Signup URL
+    be24e339-2a08-4215-9bc0-241ebc74116d: 'Column 1 Support Items' # Column 1 Support Items
+    beb03a16-866e-431e-9c85-b4c2e18b71a0: 'Start Using - Button' # Start Using - Button
+    bf60c1f6-b158-4c9c-8a61-ea58446ef669: 'Button 3' # Button 3
+    c0f84950-a63c-4ab3-be95-91b5fdd653ec: 'Image Position' # Image Position
+    c7be2a47-a9bc-4b56-aff6-620838f6dbfd: 'Contact Success' # Contact Success
+    c7f5004a-9fa5-4b52-810d-5c374be03583: 'Banner Image' # Banner Image
+    c57f8c6a-0b59-4379-9cd5-053f9cd9c1c2: 'How It Works - Collage' # How It Works - Collage
+    c60db8e9-bab4-414e-846a-04a2a0c1297a: 'Tier 1 - Billing Period' # Tier 1 - Billing Period
+    c392f6ab-3a01-47da-bb62-5f845b3fdb3c: 'Tile 4 - Service' # Tile 4 - Service
+    ca7e73c8-76e7-4e45-a60c-d1291575846f: 'Tile 4 - Hover Background Image' # Tile 4 - Hover Background Image
+    ca48c4d0-e1df-4742-88fa-66a470f4db0b: Button # Button
+    cbc5ffc5-52ea-45ab-83f3-ed553de7e1eb: 'Point 3 - Number' # Point 3 - Number
+    cbf7561b-d095-4f34-b194-30901eabce66: 'Tile 4 - Background Image' # Tile 4 - Background Image
+    cd85cc9b-42c0-49c3-a746-2d0b2a2a3b9c: 'Tier 1 - Signup URL' # Tier 1 - Signup URL
+    cfb58264-2035-43e9-bc3d-50e23eb680b4: 'Contact Success' # Contact Success
+    d02d697a-f727-4777-a1be-4487507e5187: 'Type - Title' # Type - Title
+    d2f327a2-df39-4755-8041-691e154b5ee9: Civilogs # Civilogs
+    d8f3eaea-67f3-4085-bacf-a7945df7923f: 'Tier 3 - Billing Period' # Tier 3 - Billing Period
+    d97261f3-f95a-4824-bb49-28fd1e15a8af: 'Connect TItle' # Connect TItle
+    dad82f0a-a839-4353-b27d-e821f75c1f18: Address # Address
+    dee8f929-14ba-465c-8acd-39f576ba7f02: Title # Title
+    df515d35-7e4e-4c9b-ac2e-698d9e31e566: 'Title - Sub Heading' # Title - Sub Heading
+    e3f04cfb-6a7b-402c-951a-fbcfcef3ff72: Icon # Icon
+    e4b29216-d0b4-4c16-afa8-63fb48fd7297: Content # Content
+    e20958fc-8185-45c5-ab93-731acd124028: 'Point 1 - Title' # Point 1 - Title
+    eb27119c-be9e-4c64-9f89-66b53ffc930f: Answer # Answer
+    eca91479-c8e2-4e5a-a0ca-dee4186652ff: 'Tile 2 - Service' # Tile 2 - Service
+    ed77666e-949e-41cb-803a-d245830c61b6: Description # Description
+    f46c61bf-4fa8-4cfd-8d9f-c28351d2d027: 'Tier 1 - Name' # Tier 1 - Name
+    fcfd1ebe-062e-4c3a-9d1f-7f8ad153c861: 'Tile 2 - Hover Background Image' # Tile 2 - Hover Background Image
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Civilogs'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: dave@daverayner.com.au
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      confirmationSubject: ''
+      confirmationTemplate: ''
+      enableConfirmationEmail: ''
+      enableDatabase: '1'
+      enableRecaptchaOverride: ''
+      enableTemplateOverwrite: ''
+      notificationTemplate: ''
+      recaptcha: ''
+      recaptchaDataBadge: bottomright
+      recaptchaDebug: ''
+      recaptchaHideBadge: ''
+      recaptchaSecretKey: ''
+      recaptchaSiteKey: ''
+      recaptchaThreshold: '0.5'
+      recaptchaTimeout: '5'
+      recaptchaUrl: ''
+      recaptchaVerificationUrl: ''
+      recaptchaVersion: '3'
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      honeypotParam: subjectLine
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: XX60AA12SYBMI912P1L4QRO4
+    schemaVersion: 3.0.12
+    settings:
+      addHrefLang: true
+      addPaginatedHreflang: true
+      addXDefaultHrefLang: true
+      alwaysIncludeCanonicalUrls: false
+      cpTitlePrefix: '⚙ '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - '''self'''
+      devModeCpTitlePrefix: '&#x1f6a7;⚙ '
+      devModeTitlePrefix: '&#x1f6a7; '
+      displayAnalysisSidebar: true
+      displayPreviewSidebar: true
+      enableDebugToolbarPanel: true
+      enableJsonLdEndpoint: false
+      enableMetaContainerEndpoint: false
+      enableSeoFileLinkEndpoint: false
+      environment: live
+      excludeNonCanonicalUrls: false
+      generatorEnabled: true
+      headersEnabled: true
+      includeHomepageInBreadcrumbs: true
+      lowercaseCanonicalUrl: true
+      manuallySetEnvironment: false
+      maxDescriptionLength: 155
+      maxTitleLength: 70
+      metaCacheDuration: 0
+      pluginName: SEOmatic
+      regenerateSitemapsAutomatically: false
+      renderEnabled: true
+      separatorChar: '|'
+      sidebarDisplayPreviewTypes:
+        - google
+        - twitter
+        - facebook
+      siteGroupsSeparate: '1'
+      siteUrlOverride: ''
+      sitemapsEnabled: false
+      socialMediaPreviewTarget: true
+      submitSitemaps: true
+      truncateDescriptionTags: '1'
+      truncateTitleTags: '1'
+      xDefaultSite: 0
+system:
+  edition: solo
+  live: true
+  name: Civilogs
+  retryDuration: null
+  schemaVersion: 3.8.0.1
+  timeZone: Australia/Melbourne
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

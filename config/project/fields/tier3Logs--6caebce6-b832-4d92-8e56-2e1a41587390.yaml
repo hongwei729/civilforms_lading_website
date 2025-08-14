@@ -1,0 +1,19 @@
+columnSuffix: giqtegsi
+contentColumnType: text
+fieldGroup: 511c954c-0a4d-4c0f-b23d-a37ac73d4baa # Pricing
+handle: tier3Logs
+instructions: ''
+name: 'Tier 3 - Logs'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

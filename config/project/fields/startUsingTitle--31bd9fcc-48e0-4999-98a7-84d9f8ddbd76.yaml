@@ -1,0 +1,23 @@
+columnSuffix: ulzactem
+contentColumnType: text
+fieldGroup: bcbfd88c-f1ba-406c-9e6a-a8def1440bb9 # Common
+handle: startUsingTitle
+instructions: ''
+name: 'Start Using - Title'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  defaultTransform: null
+  initJs: null
+  purifierConfig: null
+  purifyHtml: true
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

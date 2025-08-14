@@ -1,0 +1,46 @@
+fieldLayouts:
+  1d0dfa5b-464f-42cb-b821-976dad4b4d72:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 3f01284b-c97e-4caf-811b-e9615be9c0cd # Footer Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6c2a16b2-ff63-4780-b7fa-a94cab4818dd # Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: dad82f0a-a839-4353-b27d-e821f75c1f18 # Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b5306498-c3df-4ad2-a69c-1767598a41b5 # Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: footer
+name: Footer
+sortOrder: 2

@@ -1,0 +1,41 @@
+
+{% extends "_layout" %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+
+<!-- title START -->
+<div id="title" class="title_pricing">
+    <div class="wrapper">
+        <div id="title_text">
+        <h1>{{ entry.titleHeading|striptags('<strong><em>')|raw }}</h1>
+        <p>{{ entry.titleSubHeading|striptags('<strong><em>')|raw }}</p>
+        </div>
+    </div>
+</div>
+<!-- title END -->
+
+<!-- subHeading START -->
+<div class="subHeading subHeading_pricing">
+    <div class="wrapper">
+        <div class="subHeading_pre">{{ entry.headingPanelIntro }}</div>
+        <h2 class="subHeading_h2">{{ entry.headingPanelMain|striptags('<strong><em><i>')|raw }}</h2>
+    </div>
+</div>
+<!-- subHeading END -->
+
+<!-- generalContent START -->
+<div class="generalContent">
+    <div class="wrapper">
+        {{ entry.generalContent }}
+    </div>
+</div>
+<!-- generalContent END -->
+
+        
+{% endblock %}
+    
+{% block scripts %}
+{% endblock %}

@@ -1,0 +1,137 @@
+
+{% extends "_layout" %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+
+<!-- title START -->
+<div id="title" class="title_pricing">
+    <div class="wrapper">
+        <div id="title_text">
+        <h1>{{ entry.titleHeading|striptags('<strong><em>')|raw }}</h1>
+        <p>{{ entry.titleSubHeading|striptags('<strong><em>')|raw }}</p>
+        </div>
+    </div>
+</div>
+<!-- title END -->
+
+<!-- subHeading START -->
+<div class="subHeading subHeading_pricing">
+    <div class="wrapper">
+        <div class="subHeading_pre">{{ entry.headingPanelIntro }}</div>
+        <h2 class="subHeading_h2">{{ entry.headingPanelMain|striptags('<strong><em><i>')|raw }}</h2>
+    </div>
+</div>
+<!-- subHeading END -->
+
+<!-- pricingTable START -->
+<div id="pricingTable">
+    <div class="wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <th>
+                        <div class="teirName">{{ entry.tier1Name }}</div>
+                        <div class="teirCost">{{ entry.tier1Cost }}</div>
+                        <div class="teirTime">{% if entry.tier1Cost %}AUD per month<sup>*</sup>{% endif %}</div>
+                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <a href="{{ entry.tier1SignupUrl }}" class="button">Sign Up</a>
+                    </th>
+                    <th>
+                        <div class="teirName">{{ entry.tier2Name }}</div>
+                        <div class="teirCost">{{ entry.tier2Cost }}</div>
+                        <div class="teirTime">{% if entry.tier2Cost %}AUD per month<sup>*</sup>{% endif %}</div>
+                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <a href="{{ entry.tier2SignupUrl }}" class="button">Sign Up</a>
+                    </th>
+                    <th>
+                        <div class="teirName">{{ entry.tier3Name }}</div>
+                        <div class="teirCost">{{ entry.tier3Cost }}</div>
+                        <div class="teirTime">{% if entry.tier3Cost %}AUD per month<sup>*</sup>{% endif %}</div>
+                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <a href="{{ entry.tier3SignupUrl }}" class="button">Sign Up</a>
+                    </th>
+                    <th>
+                        <div class="teirName">{{ entry.tier4Name }}</div>
+                        <div class="teirCost">{{ entry.tier4Cost }}</div>
+                        <div class="teirTime">{% if entry.tier4Cost %}AUD per month<sup>*</sup>{% endif %}</div>
+                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <a href="{{ entry.tier4SignupUrl }}" class="button">Sign Up</a>
+                    </th>
+                    <th>
+                        <div class="teirName">{{ entry.tier5Name }}</div>
+                        <div class="teirCost">{% if entry.tier5Cost %}{{ entry.tier5Cost }}{% else %}<div class="teirCostCall">Call to<br>Discuss</div>{% endif %}</div>
+                        <div class="teirTime">{% if entry.tier5Cost %}AUD per month<sup>*</sup>{% endif %}</div>
+                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <a href="{{ entry.tier5SignupUrl }}" class="button">Sign Up</a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if entry.features|length %}
+                  {% for row in entry.features %}
+                    <tr>
+                        <th>{{ row.name}}</th>
+                        <td>{% if row.tier1 %}<div class="compY">Yes</div>{% else %}<div class="compN">No</div>{% endif %}</td>
+                        <td>{% if row.tier2 %}<div class="compY">Yes</div>{% else %}<div class="compN">No</div>{% endif %}</td>
+                        <td>{% if row.tier3 %}<div class="compY">Yes</div>{% else %}<div class="compN">No</div>{% endif %}</td>
+                        <td>{% if row.tier4 %}<div class="compY">Yes</div>{% else %}<div class="compN">No</div>{% endif %}</td>
+                        <td>{% if row.tier5 %}<div class="compY">Yes</div>{% else %}<div class="compN">No</div>{% endif %}</td>
+                    </tr>
+                    
+                  {% endfor %}
+                {% endif %}
+                {#<tr>
+                    <th>Training of Logging</th>
+                    <td>Quoted Separately</td>
+                    <td>Quoted Separately</td>
+                    <td>Quoted Separately</td>
+                    <td>Quoted Separately</td>
+                    <td>Quoted Separately</td>
+                </tr>#}
+            </tbody>
+        </table>
+        <p>*The price shown is for payments made annually. For monthly payments, a 10% surcharge will be applied. 'Training of Logging' is quoted separately.</p>
+    </div>
+</div>
+<!-- pricingTable END -->
+
+<!-- startUsing START -->
+<div class="startUsing startUsingPricing">
+    <div class="wrapper">
+        <div class="startUsing_text">
+            <h2>{{ entry.startUsingTitle|striptags('<strong><em>')|raw }}</h2>
+              <p>{{ entry.startUsingDescription|striptags('<strong><em>')|raw }}</p>
+              {% if entry.startUsingButton|length %}
+                {% for row in entry.startUsingButton %}
+                  <a href="{{ row.buttonUrl }}" class="button buttonRev">{{ row.buttonLabel }}</a>
+                {% endfor %}
+              {% endif %}
+        </div>
+        <div class="startUsing_img"><img src="{% set rel = entry.startUsingImage.one() %}{% if rel %}{{ rel.url }}{% endif %}" alt="" /></div>
+    </div>
+</div>
+<!-- startUsing END -->
+
+<!-- FAQs START -->
+<div class="faqs">
+    <div class="wrapper">
+        <div class="subHeading_pre">Everything you need to know</div>
+        <h2 class="subHeading_h2">Frequently Asked <em>Questions</em></h2>
+        {% for block in entry.faqs.all() %}
+            <div class="faqs_question">
+                <h3 class="faq_question">{{ block.faqQuestion }}</h3>
+                <div class="faq_answer">{{ block.faqAnswer }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+<!-- FAQs END -->
+        
+{% endblock %}
+    
+{% block scripts %}
+{% endblock %}

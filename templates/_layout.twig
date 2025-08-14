@@ -1,0 +1,110 @@
+{% do seomatic.tag.get("robots").content("all") %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<link rel="icon" type="image/png" href="{{ siteUrl }}ui/images/favicon.png">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="375">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<link rel="stylesheet" media="screen" href="{{ siteUrl }}ui/css/style.css?v=1.2">
+
+{% block head %}{% endblock %}
+
+<!-- Google tag (gtag.js) -->
+
+</head>
+ 
+<body>
+<i id="iconMenu" class=""></i>
+
+
+<!-- container START -->
+<div id="container" {% if craft.app.request.getSegment(1) == "features" %}class="altHeader"{% endif %}>
+
+	<header>
+		<div class="wrapper">
+			<div id="logo"><a href="{{ siteUrl }}"></a></div>
+			<nav>
+				<ul id="mainNav">
+					<li {% if craft.app.request.getSegment(1) == "" %}class="active"{% endif %}><a href="/">Home</a></li>
+					<li {% if craft.app.request.getSegment(1) == "features" %}class="active"{% endif %}><a href="/features">Features</a></li>
+					<li {% if craft.app.request.getSegment(1) == "pricing" %}class="active"{% endif %}><a href="/pricing">Pricing</a></li>
+					<li {% if craft.app.request.getSegment(1) == "support" %}class="active"{% endif %}><a href="/support">Support</a></li>
+				</ul>
+				<ul id="subNav">
+					<li><a href="/">Login</a></li>
+					<li><a href="gothere" class="button">Try Civilogs for Free</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	
+	<!-- content START -->
+	<div id="content">
+	
+		{% block content %}{% endblock %}
+	
+	</div>
+	<!-- content END -->
+	
+	<footer>
+		<div class="wrapper">
+			<div id="footer_about">
+				<div id="footer_about_logo"><a href="{{ siteUrl }}"></a></div>
+				<div id="footer_about_text">
+					<h2>Civilogs</h2>
+					{{ footer.footerText }}
+				</div>
+			</div>
+			<div id="footer_pages">
+				<h2>Page Links</h2>
+				<ul>
+					<li><a href="/features">Features</a></li>
+					<li><a href="/pricing">Pricing</a></li>
+					<li><a href="/support">Support</a></li>
+				</ul>
+			</div>
+			<div id="footer_contact">
+				<h2>Contact Us</h2>
+				<p>
+					<a href="tel:{{ footer.phone }}">{{ footer.phone }}</a><br>
+					<a href="mailto:{{ footer.email }}">{{ footer.email }}</a><br>
+					{{ footer.address }}<br>
+				</p>
+			</div>
+			<div id="footer_socials">
+				<h2>Follow Us</h2>
+				{% if socials.facebook %}<a href="{{ socials.facebook }}" class="socialIcon socialIcon_facebook"></a>{% endif %}
+				{% if socials.instagram %}<a href="{{ socials.instagram }}" class="socialIcon socialIcon_instagram"></a>{% endif %}
+				{% if socials.linkedIn %}<a href="{{ socials.linkedIn }}" class="socialIcon socialIcon_linkedin"></a>{% endif %}
+				{% if socials.twitter %}<a href="{{ socials.twitter }}" class="socialIcon socialIcon_twitter"></a>{% endif %}
+			</div>
+		</div>
+	</footer>
+	
+	{# <div id="footerLegals_reg">&copy; {{ "now"|date('Y') }} David Barry Logistics All Rights Reserved</div>
+	<div id="footerLegals_byline"><a href="https://auroracreative.com.au/">Designed by Aurora Creative</a></div> #}
+	
+</div>
+<!-- container END -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="{{ siteUrl }}ui/js/interface.js?v=1.1" type="text/javascript"></script>
+
+{% block scripts %}{% endblock %}
+
+</body>
+</html>
