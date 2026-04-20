@@ -32,7 +32,7 @@
         <table>
             <thead>
                 <tr>
-                    <td></td>
+                    <td></td> 
                     <th>
                         <div class="teirName">{{ entry.tier1Name }}</div>
                         <div class="teirCost">{{ entry.tier1Cost }}</div>
@@ -44,28 +44,28 @@
                         <div class="teirName">{{ entry.tier2Name }}</div>
                         <div class="teirCost">{{ entry.tier2Cost }}</div>
                         <div class="teirTime">{% if entry.tier2Cost %}AUD per month<sup>*</sup>{% endif %}</div>
-                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <div class="teirLogs">{{ entry.tier2Logs }}</div>
                         <a href="{{ entry.tier2SignupUrl }}" class="button">Sign Up</a>
                     </th>
                     <th>
                         <div class="teirName">{{ entry.tier3Name }}</div>
                         <div class="teirCost">{{ entry.tier3Cost }}</div>
                         <div class="teirTime">{% if entry.tier3Cost %}AUD per month<sup>*</sup>{% endif %}</div>
-                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <div class="teirLogs">{{ entry.tier3Logs }}</div>
                         <a href="{{ entry.tier3SignupUrl }}" class="button">Sign Up</a>
                     </th>
                     <th>
                         <div class="teirName">{{ entry.tier4Name }}</div>
                         <div class="teirCost">{{ entry.tier4Cost }}</div>
                         <div class="teirTime">{% if entry.tier4Cost %}AUD per month<sup>*</sup>{% endif %}</div>
-                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <div class="teirLogs">{{ entry.tier4Logs }}</div>
                         <a href="{{ entry.tier4SignupUrl }}" class="button">Sign Up</a>
                     </th>
                     <th>
                         <div class="teirName">{{ entry.tier5Name }}</div>
                         <div class="teirCost">{% if entry.tier5Cost %}{{ entry.tier5Cost }}{% else %}<div class="teirCostCall">Call to<br>Discuss</div>{% endif %}</div>
                         <div class="teirTime">{% if entry.tier5Cost %}AUD per month<sup>*</sup>{% endif %}</div>
-                        <div class="teirLogs">{{ entry.tier1Logs }}</div>
+                        <div class="teirLogs">{{ entry.tier5Logs }}</div>
                         <a href="{{ entry.tier5SignupUrl }}" class="button">Sign Up</a>
                     </th>
                 </tr>

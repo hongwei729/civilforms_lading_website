@@ -1,0 +1,4 @@
+Admin Panel
+http://16.26.244.17/admin/
+dblAdmin
+MyNewPassword123!
